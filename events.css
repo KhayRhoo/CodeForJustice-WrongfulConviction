@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  
+}
+
+.top {
+  background-color: orange;
+}
+
+.calendar {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  padding: 10px;
+  color: white;
+  width:fit-content;
+  max-width: 800px;
+}
+
+.event1 {
+  padding: 50px;
+  margin: 10px;
+  border: solid white 10px;
+  background-color: grey;
+  border-radius: 80px;
+  height: 300px;
+}
+
+.event2 {
+  padding: 50px;
+  margin: 10px;
+  border: solid white 10px;
+  background-color: grey;
+  border-radius: 80px;
+  height: 300px;
+}
+
+.event3 {
+  padding: 50px;
+  margin: 10px;
+  border: solid white 10px;
+  background-color: grey;
+  border-radius: 80px;
+  height: 300px;
+}
