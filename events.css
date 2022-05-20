@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing:border-box;
   
 }
 
@@ -11,23 +10,25 @@
 
 .calendar {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
+  display: grid | inline-grid;
   background-color: black;
   padding: 10px;
   color: white;
-  width:fit-content;
-  max-width: 800px;
+  
 }
 
-.event1 {
+.event {
   padding: 50px;
   margin: 10px;
   border: solid white 10px;
   background-color: grey;
   border-radius: 80px;
   height: 300px;
-}
+  max-width: 90px;
 
+}
+/* 
 .event2 {
   padding: 50px;
   margin: 10px;
@@ -35,6 +36,8 @@
   background-color: grey;
   border-radius: 80px;
   height: 300px;
+  max-width: 90px;
+
 }
 
 .event3 {
@@ -44,4 +47,6 @@
   background-color: grey;
   border-radius: 80px;
   height: 300px;
-}
+  max-width: 90px;
+
+} */
