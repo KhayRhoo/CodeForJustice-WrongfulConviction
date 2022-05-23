@@ -1,0 +1,126 @@
+<!-- homepage -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="home.css" />
+    <title>Righting Our Wrongs | Homepage</title>
+  </head>
+  <body>
+    <!-- navigation bar -->
+    <header>
+      <div class="header">
+        <div class="container">
+          <div class="navbar">
+            <div class="logo">
+              <img src="img/scales.png" width="125" alt="Row LOGO" />
+            </div>
+            <nav>
+              <ul id="MenuItems">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="calender.html">Calender</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="current"><a href="stats.html">Statistics</a></li>
+                <li>
+                  <a href="inmates.html"> Wrongfully convicted persons</a>
+                </li>
+              </ul>
+            </nav>
+            <img
+              src="img/menu.png"
+              class="menu-icon"
+              onclick="menutoggle()"
+              alt="Menu icon"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main id="hero">
+      <h1>Righting Our Wrongs</h1>
+      
+    </main>
+    <section id="cardholder">
+      <div class="card">
+          <div class="content">
+        <h3>2,000+</h3>
+        
+        <h4>people have been exonerated since 1989.</h4>
+        <a href="stats.html">See The Stats.</a>
+   
+        </div>
+      </div>
+      <div class="card">
+    <div class="content">
+        <h3>Want To Help?</h3>
+       
+        <h4>Find out how you can help inmates have a voice!</h4>
+       <a href="calendar.html">Get Involved</a>
+    
+        </div>
+      </div>
+      <div class="card">
+          <div class="content">
+        <h3>Have a Case?</h3>
+        
+        <h4>
+          Do you believe that someone you know has been wrongfully convicted?
+        </h4>
+        <a href="contact.html"> Submit a Case!</a>
+    
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col-1">
+              <h2>Check Out Our App!</h2>
+              <p>Download App for Android and Ios</p>
+              <div class="app-logo">
+                <img src="img/play-store.png" alt="" />
+                <img src="img/app-store.png" alt="" />
+              </div>
+            </div>
+            <div class="footer-col-2">
+              <img src="img/whitescales.png" alt="" />
+              <p>Our goal is to blah blah etc.</p>
+            </div>
+            <div class="footer-col-3">
+              <h2>Useful Links</h2>
+              <ul>
+                <li>Get In the Know</li>
+                <li>Blog Post</li>
+                <li>Donation</li>
+                <li>Join Affiliate</li>
+              </ul>
+            </div>
+            <div class="footer-col-4">
+              <h2>Follow Us</h2>
+              <ul>
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Instagram</li>
+                <li>Youtube</li>
+              </ul>
+            </div>
+          </div>
+          <hr />
+          <p class="Copyright">Copyright 2022 -ROW</p>
+        </div>
+      </div>
+    </footer>
+
+
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+	VanillaTilt.init(document.querySelector(".card"), {
+		max: 25,
+		speed: 400
+	});
+    </script>
+  </body>
+</html>
