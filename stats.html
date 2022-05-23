@@ -1,1 +1,160 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Statistics</title>
+  <link href="stats.css" rel="stylesheet" type="text/css" />
+</head>
+  <header>
+    <div class="header"> 
+  <div class="container">
+<div class="navbar">
+<div class="logo">
+  <img src="img/scales.png" width="125" alt="Row LOGO">
+</div>
+  <nav>
+    <ul id="MenuItems">
+        <li><a href="home.html">Home</a></li>
+      <li><a href="calendar.html">Calendar</a></li>
+      <li><a href="contact.html">Contact</a></li>
+       <li class="current"><a href="stats.html">Statistics</a></li>
+      <li><a href="inmates.html"> Wrongfully convicted persons</a></li> 
+    </ul>
+  </nav>
+    <img src="img/menu.png" class="menu-icon" onclick="menutoggle()" alt="Menu icon">
+</div>
+  </div>
+    </div>
+
+  </header>
+  
+<body>  
+<!-- large graph -->
+  <div class="offer">
+    <div class="small-container">
+         <aside>
+<p>-A wrongful conviction is when a person is convicted of a crime they did not commit. Wrongful convictions are often the result of multiple failures— usually by investigators, witnesses, scientists, and lawyers— that can occur at various stages of the criminal justice process. Convictions are typically considered wrongful for one of two reasons: the person is factually innocent of the charges brought against them (which is why wrongful convictions are often known as cases of “actual innocence”), or the individual’s case involved procedural errors that violated their rights</p>
+           <br>
+<p>-Once a person has been wrongfully convicted, it’s extremely difficult to overturn their conviction. Going back to the two different types of wrongful convictions, there are two different reasons for which an individual can attempt to overturn a wrongful conviction: first, for cases of factual innocence, the individual can appeal on the basis of new factual evidence; and second, for cases in which the defendant’s rights were violated, by proving that their trial was unconstitutional. </p>
+</aside>
+      <div class="row">
+        <div class="col-2">
+          <img src="img/wrongful-convictions.jpeg" class="offer-img" alt="wrongful-convictions">
+        </div>
+        
+        <div class="col-2">
+<!--           <p>Images from the Forbes</p> -->
+          <h1>The Numbers</h1>
+          <small>Images and information from Forbes. </small>
+          <a href="" class="btn">Read More &#8594;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--   Small box statistics -->
+  <div class="testimonial">
+  <div class="small-container">
+    <div class="row">
+      <div class="col-3">
+         <img src="img/Person.png" alt="">
+        <p>Since 1989, the United States has used DNA testing to exonerate 225 innocent people after they have spent years in captivity.</p>
+      </div>
+      <div class="col-3">
+                <img src="img/error-rate-estimates.png" alt="img/error-rate-estimates">
+
+        <p>Eyewitness misidentifications, because of poor crime scene visibility and bad police procedures, are involved in the vast majority of cases. -PrisonFellowship.org
+ Coerced false confessions from defendants, lying jailhouse informants, and bad forensics science also bear responsibility for locking innocent people behind bars
+</p>
+       
+      </div>
+      <div class="col-3">
+            <img src="img/piechart.jpeg" alt="piechart">
+        <p>Because roughly half of the states have no laws requiring crime scene evidence to be preserved, evidence is often unavailable for reevaluation once a person is incarcerated, making confirming or denying pleas of innocence nearly impossible.</p>
+      </div>
+       <div class="col-3">
+                <img src="img/thecost.jpeg" alt="thecost">
+
+        <p> “How common are wrongful convictions?”, the science and research department critically reviewed the latest research and found that the wrongful conviction rate in capital cases is about 4% according to the best available study to date.
+</p>
+      </div>
+      <div class="col-3">
+                <img src="img/exoneration.png" alt="exoneration">
+        <p>As of January 2020, the Innocence Project has documented over 375 DNA exonerations in the United States. Twenty-one of these exonerees had previously been sentenced to death.</p>
+    </div>
+      <div class="col-3">
+                <img src="img/overturned.webp" alt="overturned">
+        <p>The vast majority (97%) of these people were wrongfully convicted of committing sexual assault and/or murder. Although these individuals were innocent of these crimes, approximately 25% had confessed and 11% had pleaded guilty.</p>
+  </div>
+</div>
+  </div>
+  </div>
+  
+<!-- footer -->
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col-1">
+        <h2>Check Out Our App!</h2>
+        <p>Download App for Android and Ios</p>
+        <div class="app-logo">
+          <img src="img/play-store.png" alt="">
+          <img src="img/app-store.png" alt="">
+        </div>
+      </div>
+      <div class="footer-col-2">
+        <img src="img/whitescales.png" alt="">
+        <p>Our goal is to spread awareness on wrongful conviction. </p>
+      </div>
+      <div class="footer-col-3">
+        <h2>Useful Links</h2>
+        <ul>
+          <li>Get In the Know</li>
+          <li>Blog Post</li>
+          <li>Donation</li>
+          <li>Join Affiliate</li>
+        </ul>
+      </div>
+      <div class="footer-col-4">
+        <h2>Follow Us</h2>
+        <ul>
+          <li>Facebook</li>
+          <li>Twitter</li>
+          <li>Instagram</li>
+          <li>Youtube</li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <p class="Copyright">Copyright 2022 -ROW</p>
+    
+  </div>
+</div>
+  
+
+<!---js for toggle menu-->
+  <script>
+var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+      if(MenuItems.style.maxHeight == "0px")
+      {
+        MenuItems.style.maxHeight= "200px"
+    }
+      else
+      {
+        MenuItems.style.maxHeight = "0px";
+      }
+    }
+  </script>
+
+
+
+
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
