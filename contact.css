@@ -59,12 +59,12 @@
   
   }
   h1{
-  
-      color:#404040;
+  background: radial-gradient(#fff,#b8b7b8)
+     
   }
   h3{
-     background: #000;
-      color: #ff8c00 ;
+  background: radial-gradient(#fff,#b8b7b8);
+       color:#2e2e2e;
   }
   input[type=submit]:hover {
     background-color: #828282;
@@ -155,5 +155,5 @@
 
   }
 .rest{
-    background-color:#9c9c9c;
-}
+background: radial-gradient(#fff,#b8b7b8)
+}    
