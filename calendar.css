@@ -1,1 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: #ffffff;
+  
+}
+.navbar{
+  display: flex;
+  align-items:center;
+  padding:20px;
+}
+nav{
+  flex:1;
+  text-align: right;
+  
+}
+nav ul{
+  display: inline-block;
+  list-style-type:none;
+}
+nav ul li{
+  display: inline-block;
+  margin-right: 20px;
+  
+}
+a{
+  text-decoration: none;
+  color: #555;
+}
+p{
+  color:#555;
+}
+
+.card {
+  color: white;
+}
+
+
+
+
+
+
+.image {
+  background-color: orange;
+
+}
+
+.top {
+  background-color: orange;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  grid-row: 1;
+  text-align: center;
+  gap: 10px;
+}
+
+.advertise {
+  /* border: solid 1px; */
+  border-radius: 80px;
+  margin: 40px;
+  max-width: 180px;
+  font-weight: bold;
+}
+
+#ad-img {
+  border-radius: 50%;
+}
+
+.calendar {
+  background-color: black;
+  padding: 10px;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  justify-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .calendar {
+    grid-template-columns: repeat(2, 1fr);
+    background-color: black;
+    padding: 10px;
+    color: white;
+    display: grid;
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    justify-items: center;
+  }
+}
+
+.event {
+  padding: 50px;
+  margin: 10px;
+  border: solid white 10px;
+  background-color: grey;
+  /* border-radius: 10px; */
+  height: 250px;
+  max-width: 190px;
+  text-align: center;
+}
+
+/* footer */
+.footer{
+  background: #000;
+  color:#8a8a8a;
+  font-size: 14px;
+  padding: 60px 0 20px;
+}
+.footer p{
+    color:#8a8a8a;
+
+}
+.footer h3{
+  color: #fff;
+  margin-bottom: 20px;
+}
+.footer-col-1,.footer-col-2,.footer-col-3,.footer-col-4{
+  min-width: 250px;
+  margin-bottom: 20px;
+
+}
+.footer-col-1{
+  flex-basis:30px;
+}
+.footer-col-2{
+  flex: 1;
+  text-align: center;
+}
+.footer-col-2 img{
+  width: 180px;
+  margin-bottom: 20px;
+
+}
+.footer-col-3, .footer-col-4{
+flex-basis:12%;
+  text-align:center;
+}
+ul{
+  list-style-type: none;
+}
+.app-logo{
+  margin-top: 20px;
+}
+.app-logo img{
+  width: 140px;
+}
+.footer hr{
+  border:none;
+  background: #b5b5b5;
+  height: 1px;
+  margin: 20px 0;
+}
+.Copyright{
+  text-align: center;
+}
+div {
+  display: block;
+}
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
