@@ -129,6 +129,15 @@ h4{
   .content a:hover{
     background: #563434;
   }  
+  div {
+    display: block;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 
 /* .content btn{
     display: inline-block;
