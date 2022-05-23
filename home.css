@@ -129,7 +129,7 @@ h4{
     border-radius: 30px;
     transition: background 0.5s;
   }
-  a:hover{
+  .content a:hover{
     background: #563434;
   }  
 
